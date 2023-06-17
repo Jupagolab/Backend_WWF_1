@@ -1,0 +1,26 @@
+GET http://localhost:3000/usuario/jupagolab HTTP/1.1
+
+###
+POST http://localhost:3000/usuario HTTP/1.1
+Content-Type: application/json
+
+{
+    "usuario": "pablito",
+    "nombre": "Pablo Gonzalez",
+    "correo": "pablo@hotmail.com",
+    "clave": "pablo123"
+}
+
+###
+PUT http://localhost:3000/usuario/becolagon HTTP/1.1
+Content-Type: application/json
+
+{
+    "usuario": "becolagon",
+    "nombre": "Belkis Labarca",
+    "correo": "belkis@gmail.com",
+    "clave": "pabeju"   
+}
+
+###
+DELETE http://localhost:3000/usuario/pablito HTTP/1.1
