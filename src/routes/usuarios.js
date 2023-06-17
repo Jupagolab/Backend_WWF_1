@@ -10,5 +10,4 @@ routerUsuarios.get('/:usuario', buscarUsuario);
 // --------------- POST --------------
 routerUsuarios.post('/', registrarUsuario);
 
-
 module.exports = routerUsuarios;
